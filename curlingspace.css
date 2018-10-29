@@ -1,3 +1,116 @@
-.headerimage {
-    height: 100%;
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+.firstrow {
+    background:url(Images/grungebg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+.create {
+    margin-left: 4em;
+}
+.quotetext {
+    font-family: 'Elsie', serif;
+    font-size: 9em;
+    line-height: .01em;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.designimage {
+    width: 80%;
+}
+
+.titles {
+    font-family: 'Elsie', serif;
+    font-size: 9em;
+    margin-top: .5em;
+    margin-bottom: 1.6em;
+}
+.portfoliotitle {
+    font-family: 'Elsie', serif;
+    font-size: 8em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background:url(Images/portfoliodecor2.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: left bottom
+}
+.portfoliorow {
+    margin-bottom: 7em;
+}
+.name {
+    padding-left: .5em;
+    font-size: 5em;
+}
+
+
+.headimage {
+    padding-top: 5em;
+    border-radius: 00px;
+    height: 110%;
+}
+.aboutmetext {
+font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+
+}
+.skillstext {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+}
+.fonttext {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.skillstitle {
+    font-size: 1.4em;
+}
+.navbar li {
+    display: inline-block;
+    padding-right: 1em;
+    z-index: 10000!important;
+}
+.navbar {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6em;
+    width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.aboutimage {
+    width: 100%
+}
+.aboutmerow {
+    margin-bottom: 1em;
+}
+.contactrow {
+    margin-top: 8em;
+    margin-bottom: 6em;
+}
+.connectrow {
+    margin-top: 6em;
+}
+.icon:hover {
+    transform: flipx(240deg);
+}
+
+.image1 {
+    margin-left: 6em;
+}
+.card-image img:hover {
+    opacity: .3;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
