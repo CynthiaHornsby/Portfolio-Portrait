@@ -114,3 +114,11 @@ font-family: 'Source Sans Pro', sans-serif;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .quotetext {
+      font-size: 3.8em;
+  }
+}
